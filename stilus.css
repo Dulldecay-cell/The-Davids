@@ -19,26 +19,32 @@ main {
 
 header{
     background-color: rgb(5, 184, 124);
+    grid-area: h;
 }
 
 nav{
     background-color: aliceblue;
+    grid-area: n;
 }
 
 article{
     background-color: rgb(125, 190, 243);
+    grid-area: ar;
 }
 
 aside{
     background-color: rgb(250, 99, 99);
+    grid-area: as;
 }
 
 aside{
     background-color: rgb(133, 94, 66);
+    grid-area: as;
 }
 
 footer{
     background-color: rgb(50, 109, 89);
+    grid-area: f;
 }
 
 @media screen and (max-width:800px) {
