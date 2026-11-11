@@ -16,17 +16,20 @@ main {
 header{
     grid-area: h;
     background-color: rgb(5, 184, 124);
+    border:1px solid black;
     
 }
 
 h1{
     text-align: center;
     margin: 10px;
+    border:1px solid black;
 }
 
 nav{
     grid-area: n;
     background-color: rgb(44, 141, 231);
+    border:1px solid black;
 }
 
 ul{
@@ -38,6 +41,7 @@ ul{
     padding: 10px;
     background-color: rgb(44, 141, 231);
     gap: 25px;
+    border:1px solid black;
 
 }
 
@@ -49,24 +53,29 @@ li{
 article{
     grid-area: ar;
     background-color: rgb(125, 190, 243);
+    border:1px solid black;
+
     
 }
 
 section{
     grid-area: se;
     background-color: rgb(250, 99, 99);
+    border:1px solid black;
     
 }
 
 aside{
     grid-area: as;
     background-color: rgb(250, 99, 99);
+    border:1px solid black;
 }
 
 footer{
     grid-area: f;
     background-color: rgb(50, 109, 89);
     padding: 10px;
+    border:1px solid black;
     
 }
 
