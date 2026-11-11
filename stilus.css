@@ -6,3 +6,7 @@ main header article nav footer aside ul li{
 @media screen and (max-width:700px) {
     
 }
+body {
+    background-color: rgb(245, 180, 134);
+}
+
