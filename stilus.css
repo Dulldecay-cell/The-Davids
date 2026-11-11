@@ -1,5 +1,5 @@
 main header article nav footer aside ul li{
-    border: 1px;
+    border: 10px;
     padding: 1px;
     margin: 1px;
 }
@@ -11,7 +11,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "h h h"
-                        "n n n"
+                        "se n as"
                         "se ar as"
                         "f f f";
 }
@@ -22,12 +22,30 @@ header{
 }
 
 h1{
-    margin: 0;
+    text-align: center;
+    margin: 10px;
 }
 
 nav{
     grid-area: n;
-    background-color: aliceblue;
+    background-color: rgb(44, 141, 231);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(44, 141, 231);
+    gap: 25px;
+
+}
+
+li{
+    border: 1px solid rgb(109, 44, 231);
+    padding: 5px;
 }
 
 article{
