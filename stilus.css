@@ -2,16 +2,36 @@ body {
     background-color: rgb(245, 180, 134);
 }
 
-main
+main {
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "h h h"
+                        "n n n"
+                        "as ar as"
+                        "f f f";
+}
 
-header
+header{
+    background-color: rgb(5, 184, 124);
+}
 
-nav
+nav{
+    background-color: aliceblue;
+}
 
-article
+article{
+    background-color: rgb(125, 190, 243);
+}
 
-aside
+aside{
+    background-color: rgb(250, 99, 99);
+}
 
-aside
+aside{
+    background-color: rgb(133, 94, 66);
+}
 
-footer
+footer{
+    background-color: rgb(50, 109, 89);
+}
