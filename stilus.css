@@ -76,6 +76,7 @@ footer{
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "h h"
                         "n n"
+                        "se se"
                         "ar as"
                         "f f";
 }
@@ -87,6 +88,7 @@ footer{
     grid-template-columns: 1fr;
     grid-template-areas: "h"
                         "n"
+                        "se"
                         "ar"
                         "as"
                         "f";
