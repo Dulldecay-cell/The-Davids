@@ -1,8 +1,4 @@
-main header article nav footer aside ul li{
-    border: 10px;
-    padding: 1px;
-    margin: 1px;
-}
+
 body {
     background-color: rgb(245, 180, 134);
 }
@@ -19,6 +15,7 @@ main {
 header{
     grid-area: h;
     background-color: rgb(5, 184, 124);
+    
 }
 
 h1{
@@ -51,11 +48,13 @@ li{
 article{
     grid-area: ar;
     background-color: rgb(125, 190, 243);
+    
 }
 
 section{
     grid-area: se;
     background-color: rgb(250, 99, 99);
+    
 }
 
 aside{
@@ -66,6 +65,8 @@ aside{
 footer{
     grid-area: f;
     background-color: rgb(50, 109, 89);
+    padding: 10px;
+    
 }
 
 @media screen and (max-width:800px) {
