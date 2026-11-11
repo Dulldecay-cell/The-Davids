@@ -4,34 +4,43 @@ body {
 
 main {
     display: grid;
-    
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "h h h"
                         "n n n"
-                        "as ar as"
+                        "se ar as"
                         "f f f";
 }
 
 header{
+    grid-area: h;
     background-color: rgb(5, 184, 124);
 }
 
+h1{
+    margin: 0;
+}
+
 nav{
+    grid-area: n;
     background-color: aliceblue;
 }
 
 article{
+    grid-area: ar;
     background-color: rgb(125, 190, 243);
 }
 
-aside{
+section{
+    grid-area: se;
     background-color: rgb(250, 99, 99);
 }
 
 aside{
-    background-color: rgb(133, 94, 66);
+    grid-area: as;
+    background-color: rgb(250, 99, 99);
 }
 
 footer{
+    grid-area: f;
     background-color: rgb(50, 109, 89);
 }
