@@ -5,42 +5,68 @@ body {
 
 main {
     display: grid;
-    
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: "h h h"
-                        "n n n"
-                        "as ar as"
+                        "se n as"
+                        "se ar as"
                         "f f f";
 }
 
 header{
-    background-color: rgb(5, 184, 124);
     grid-area: h;
+    background-color: rgb(5, 184, 124);
+    
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
 }
 
 nav{
-    background-color: aliceblue;
     grid-area: n;
+    background-color: rgb(44, 141, 231);
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(44, 141, 231);
+    gap: 25px;
+
+}
+
+li{
+    border: 1px solid rgb(109, 44, 231);
+    padding: 5px;
 }
 
 article{
-    background-color: rgb(125, 190, 243);
     grid-area: ar;
+    background-color: rgb(125, 190, 243);
+    
 }
 
-aside{
+section{
+    grid-area: se;
     background-color: rgb(250, 99, 99);
-    grid-area: as;
+    
 }
 
 aside{
-    background-color: rgb(133, 94, 66);
     grid-area: as;
+    background-color: rgb(250, 99, 99);
 }
 
 footer{
-    background-color: rgb(50, 109, 89);
     grid-area: f;
+    background-color: rgb(50, 109, 89);
+    padding: 10px;
+    
 }
 
 @media screen and (max-width:800px) {
@@ -50,6 +76,7 @@ footer{
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "h h"
                         "n n"
+                        "se se"
                         "ar as"
                         "f f";
 }
@@ -61,6 +88,7 @@ footer{
     grid-template-columns: 1fr;
     grid-template-areas: "h"
                         "n"
+                        "se"
                         "ar"
                         "as"
                         "f";
